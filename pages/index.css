@@ -5,7 +5,6 @@
   font-family: "Inter", Arial, sans-serif, "Noto-Serif", "Times New Roman",
     serif;
   font-size: 16px;
-  line-height: 30px;
 }
 .header {
   background-color: #ffffff;
@@ -98,9 +97,6 @@
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  margin-top: auto;
-  list-style: none;
-  list-style-type: none;
   font-family: "inter", arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -108,18 +104,12 @@
   line-height: 20px;
   color: #838383;
 }
-.footer__column-heading {
-  margin-bottom: 0%;
-}
-.footer__list {
+.header__link {
   padding-left: 0px;
   margin-bottom: 0%;
   margin-top: 0%;
 }
-.footer__list-item {
-  list-style: none;
-}
-.header__adress {
+.header__paragraph {
   list-style: none;
 }
 .header__span-accent {
