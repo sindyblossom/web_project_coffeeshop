@@ -5,6 +5,7 @@
   font-family: "Inter", Arial, sans-serif, "Noto-Serif", "Times New Roman",
     serif;
   font-size: 16px;
+  line-height: 0%;
 }
 .header {
   background-color: #ffffff;
@@ -111,6 +112,8 @@
 }
 .header__paragraph {
   list-style: none;
+  margin-bottom: 0%;
+  z-index: 2;
 }
 .header__span-accent {
   display: block;
