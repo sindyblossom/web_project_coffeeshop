@@ -121,7 +121,9 @@
                 >Número de comensales *</label
               >
               <input
-                type="number" min="1" max="8"
+                type="number"
+                min="1"
+                max="8"
                 id="diners"
                 class="form__input"
                 placeholder="1-8"
@@ -145,11 +147,19 @@
                 required
               />
             </fieldset>
-              <button class="reservation__form_fieldset reservation__form-button" type="submit">
-                Reservar una mesa
-              </button>
-              <label class="reservation__label reservation__form-label-checkbox" for="terminos">
-                <input class="form__checkbox" type="checkbox" id="terminos" required/>Acepto los términos de uso
+            <fieldset>
+              <input
+                type="button"
+                class="form__button"
+                value="Reservar una mesa"
+              />
+              <label class="form__checkbox" for="terminos">
+                <input
+                  type="checkbox"
+                  class="form__checkbox"
+                  id="terminos"
+                  required
+                />Acepto los términos de uso
               </label>
             </fieldset>
           </form>
